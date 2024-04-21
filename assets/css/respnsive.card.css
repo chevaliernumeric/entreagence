@@ -1,0 +1,30 @@
+ /*responsive stard mobile*/
+ @media screen and (max-width: 576px) {   
+    .div-block-23, .div-block-27, .div-block-28{
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: center; 
+    }
+
+   .carousel-inner{
+    display: none;
+   }
+   .div-block-29{
+    display: none;
+   }
+ 
+} 
+  /*responsive end mobile*/
+  @media (max-width: 820px) {
+    
+    .div-block-23, .div-block-27, .div-block-28{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+      }
+    
+     .div-block-29{
+      display: none;
+     }
+  }
